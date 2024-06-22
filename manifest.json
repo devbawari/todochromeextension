@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Timer and To-Do List",
+  "version": "1.0",
+  "description": "A Chrome extension with a timer and a to-do list.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "logo.jpg",
+      "48": "logo.jpg",
+      "128": "logo.jpg"
+    }
+  },
+  "permissions": [
+    "storage"
+  ]
+}
